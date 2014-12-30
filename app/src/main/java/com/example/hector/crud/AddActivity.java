@@ -48,7 +48,7 @@ public class AddActivity extends Activity {
                     }
                 });
     }
-////
+////hola
     public void onClick(View v){
         Intent data = new Intent();
         Bundle b= new Bundle();
