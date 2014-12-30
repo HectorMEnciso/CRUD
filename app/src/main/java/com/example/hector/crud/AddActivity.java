@@ -59,7 +59,7 @@ public class AddActivity extends Activity {
         Cilindrada=(EditText)findViewById(R.id.entradaCilindrada);
         int dia,mes,anno;
         dia=FechaCompra.getDayOfMonth();
-        mes=FechaCompra.getMonth()+1;
+        mes=FechaCompra.getMonth()+1;//Sumar uno, si no coge un mes menos.
         anno=FechaCompra.getYear();
         String fecha=dia+"/"+mes+"/"+anno;
         b.putString("Matricula",Matricula.getText().toString());
